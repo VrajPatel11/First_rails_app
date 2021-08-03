@@ -1,4 +1,6 @@
-<h1>This is the Home Page</h1>
-
-<%= link_to 'Articles listing', articles_path %> |
-<%= link_to 'About page', about_path%>
+<div class="container" id="home-container"> 
+    <div class="jumbotron bg-light p-5 rounded-lg m-3 text-center text-white">
+        <h1 class="display-4 mb-5">Blog App</h1>
+        <%= link_to "Sign Up", signup_path, class: "btn btn-outline-info btn-lg" %>
+    </div>
+</div>
